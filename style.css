@@ -1,0 +1,88 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaf4fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav {
+    background-color: #3498db;
+    color: white;
+    padding: 20px 0;
+}
+main {
+    padding: 50px 20px;
+}
+h1, h2 {
+    color: #2c3e50;
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="button"] {
+    margin: 10px;
+}
+.btn-principal {
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #85c1e9, #3498db);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-principal:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+footer strong {
+    color: #f1c40f;
+}           
+
+main {      
+    background-color: #f0f8ff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
